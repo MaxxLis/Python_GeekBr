@@ -94,14 +94,15 @@
 # 6-й день: 3,22
 # Ответ: на 6-й день спортсмен достиг результата — не менее 3 км.
 #----------------------------------------------------------------------------------------------
-start_distance = int(input('В первый день спортсмен пробежал, км (введите): '))
-end_distance = int(input('Дистанция, которую нужно преодалеть за день, км (введите): '))
-rise = 0.1
-start_distance = start_distance / (1 + rise)  # чтобы захватить превышение последнего дня, костыль тут
-day = 0
-while start_distance < end_distance:
-    day += 1
-    start_distance += rise * start_distance
-    print(f'{day}-й день:{start_distance:.2f}')
 
-print(f'Ответ: на {day}-й день спортсмен достиг результата — не менее {end_distance} км.')
+# start_distance = int(input('В первый день спортсмен пробежал, км (введите): '))
+# end_distance = int(input('Дистанция, которую нужно преодалеть за день, км (введите): '))
+# rise = 0.1
+# start_distance = start_distance / (1 + rise)  # чтобы захватить превышение последнего дня, костыль тут
+# day = 0
+# while start_distance < end_distance:
+#     day += 1
+#     start_distance += rise * start_distance
+#     print(f'{day}-й день:{start_distance:.2f}')
+#
+# print(f'Ответ: на {day}-й день спортсмен достиг результата — не менее {end_distance} км.')
