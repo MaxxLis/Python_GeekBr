@@ -10,3 +10,4 @@ def division(a, b):
 a, b = (int(input(f'Введите число {_}: ')) for _ in range(1, 3))
 
 print(division(a, b))
+

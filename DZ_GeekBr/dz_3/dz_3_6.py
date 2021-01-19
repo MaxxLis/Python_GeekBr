@@ -11,3 +11,4 @@ def int_func(str_input):
 vvod = input('введите слова через пробел: ')
 for i in vvod.split():
     print(int_func(i), end=' ')
+
